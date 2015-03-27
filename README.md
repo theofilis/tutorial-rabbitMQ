@@ -27,3 +27,10 @@ This repository contains **Dockerfile** of [RabbitMQ](http://www.rabbitmq.com/) 
 #### Run `rabbitmq-server` w/ persistent shared directories.
 
     docker run --name rabbitmq -d -p 5672:5672 -p 15672:15672 -v <log-dir>:/data/log -v <data-dir>:/data/mnesia dockerfile/rabbitmq
+
+### Books
+1. RabbitMQ in Action
+2. RabbitMQ Essentials
+3. RabbitMQ Cookbook (Packt Publishing)
+4. RabbitMQ Cookbook (Safari Online)
+

@@ -17,10 +17,6 @@ This repository contains **Dockerfile** of [RabbitMQ](http://www.rabbitmq.com/) 
 
    (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/rabbitmq" github.com/dockerfile/rabbitmq`)
 
-### REPO
-1. https://github.com/rabbitmq/rabbitmq-server
-2. https://github.com/rabbitmq/rabbitmq-tutorials
-
 ### Usage
 
 #### Run `rabbitmq-server`
@@ -30,6 +26,10 @@ This repository contains **Dockerfile** of [RabbitMQ](http://www.rabbitmq.com/) 
 #### Run `rabbitmq-server` w/ persistent shared directories.
 
     docker run --name rabbitmq -d -p 5672:5672 -p 15672:15672 -v <log-dir>:/data/log -v <data-dir>:/data/mnesia dockerfile/rabbitmq
+
+### REPO
+1. https://github.com/rabbitmq/rabbitmq-server
+2. https://github.com/rabbitmq/rabbitmq-tutorials
 
 ### Books
 1. RabbitMQ in Action

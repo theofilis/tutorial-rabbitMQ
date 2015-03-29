@@ -17,6 +17,9 @@ This repository contains **Dockerfile** of [RabbitMQ](http://www.rabbitmq.com/) 
 
    (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/rabbitmq" github.com/dockerfile/rabbitmq`)
 
+### REPO
+1. https://github.com/rabbitmq/rabbitmq-server
+2. https://github.com/rabbitmq/rabbitmq-tutorials
 
 ### Usage
 

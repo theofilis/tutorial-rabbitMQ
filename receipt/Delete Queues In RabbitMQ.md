@@ -23,4 +23,5 @@ for queue in `rabbitmqadmin -f bash list queues`; do echo $queue `rabbitmqadmin 
 ```
 
 **Source**
+
 [http://davidsj.co.uk/](http://davidsj.co.uk/blog/delete-queues-in-rabbitmq/)

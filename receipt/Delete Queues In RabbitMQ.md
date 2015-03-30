@@ -22,4 +22,6 @@ Then, simply run this one-liner:
 for queue in `rabbitmqadmin -f bash list queues`; do echo $queue `rabbitmqadmin delete queue name=$queue`; done
 ```
 
+*Source*
+
 [http://davidsj.co.uk/](http://davidsj.co.uk/blog/delete-queues-in-rabbitmq/)
